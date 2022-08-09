@@ -1,0 +1,7 @@
+#!/bin/dash
+
+# Compositor
+picom &
+
+# Wallpaper
+hsetroot -solid "#e6e6e6" &

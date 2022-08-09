@@ -1,0 +1,51 @@
+Xft.dpi: 96
+
+! special
+*.foreground:   #ffffff
+*.background:   #141b1f
+*.cursorColor:  #ffffff
+
+*.color0: #2f2e2d
+*.color1: #a36666
+*.color10: #afbea2
+*.color11: #e4c9af
+*.color12: #a1bdce
+*.color13: #d7beda
+*.color14: #b1e7dd
+*.color15: #efefef
+*.color2: #90a57d
+*.color3: #d7af87
+*.color4: #7fa5bd
+*.color5: #c79ec4
+*.color6: #8adbb4
+*.color7: #d0d0d0
+*.color8: #4a4845
+*.color9: #d78787
+
+*font: xft:cozette:size=12
+
+*boldFont:
+*lineSpace:             5
+*letterSpace:           1
+*geometry:              50x20
+*internalBorder:        30
+*scrollBar:             false
+URxvt.cursorBlink: true
+URxvt.scrollstyle: plain
+URxvt.cursorUnderline: true
+
+
+! xft fonts settings
+Xft.autohint:           0
+Xft.lcdfilter:          lcddefault
+Xft.hinting:            1
+Xft.hintstyle:          hintslight
+Xft.antialias:          1
+Xft.rgba:               rgb
+
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+! URxvt.perl-ext-common: config-reload
